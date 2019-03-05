@@ -47,3 +47,17 @@ const squareTheNumbers = listOfNumbers.map(num => num * num);
 // 5. the array index of the current element. OPTIONAL
 // 6. the array object the current element belings to. OPTIONAL
 console.log(squareTheNumbers);
+
+
+// Cites 1
+
+const cities = [
+    { name: 'Los Angeles', temperature: 60.0},
+    { name: 'Atlanta', temperature: 52.0 },
+    { name: 'Detroit', temperature: 48.0 },
+    { name: 'New York', temperature: 80.0 }
+  ];
+
+const coolerCities = cities.filter(temperature = temperature < 80);
+
+console.log(coolerCities);

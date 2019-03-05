@@ -58,6 +58,6 @@ const cities = [
     { name: 'New York', temperature: 80.0 }
   ];
 
-const coolerCities = cities.filter(temperature = temperature < 80);
+const coolerCities = cities.filter(city => city.temperature < 80);
 
 console.log(coolerCities);

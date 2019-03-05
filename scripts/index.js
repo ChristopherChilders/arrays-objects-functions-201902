@@ -37,5 +37,13 @@ console.log(evenNumbers);
 //Square the Numbers
 
 const squareTheNumbers = listOfNumbers.map(num => num * num);
-
+// .map follows this formula:
+// let newArray = array.map(function (currentValue, index, array));
+// 1)           2)     3)             4)            5)     6)
+// 1. evoke new array
+// 2. set it equal to the original array
+// 3. call the .map() function
+// 4. the value of the current item in the old array. REQUIRED
+// 5. the array index of the current element. OPTIONAL
+// 6. the array object the current element belings to. OPTIONAL
 console.log(squareTheNumbers);

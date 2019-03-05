@@ -59,5 +59,39 @@ const cities = [
   ];
 
 const coolerCities = cities.filter(city => city.temperature < 80);
-
+                                // same syntax as an inner function
 console.log(coolerCities);
+
+// Cities 2
+
+//write a function which takes an array of city objects 
+//and returns an array of the city's names
+const onlyTheCities = cities.map(city => city.name);
+
+console.log(onlyTheCities);
+
+// Good Job!
+
+const people = [
+    'Dom',
+    'Lyn',
+    'Kirk',
+    'Autumn',
+    'Trista',
+    'Jesslyn',
+    'Kevin',
+    'John',
+    'Eli',
+    'Juan',
+    'Robert',
+    'Keyur',
+    'Jason',
+    'Che',
+    'Ben'
+  ];
+
+//Print out 'Good Job, {{name}}!' for each person's name, one on a line.
+
+people.forEach(function (name){
+    console.log(`Good job, ${name}!`);
+});

@@ -30,8 +30,12 @@ listOfNumbers.forEach(function (originalNumbers){
         evenNumbers.push(originalNumbers);
     }
     return evenNumbers;
-})
+});
 console.log(evenNumbers);
 
 
+//Square the Numbers
 
+const squareTheNumbers = listOfNumbers.map(num => num * num);
+
+console.log(squareTheNumbers);

@@ -18,3 +18,20 @@ listOfNumbers.forEach(function (originalNumbers){
 });
 
 console.log(positiveNumbers);
+
+// Even Numbers
+
+//make a new array to store the even numbers
+let evenNumbers = [];
+
+// Write a function that seperates even values into evenNumbers
+listOfNumbers.forEach(function (originalNumbers){
+    if(originalNumbers % 2 === 0){
+        evenNumbers.push(originalNumbers);
+    }
+    return evenNumbers;
+})
+console.log(evenNumbers);
+
+
+
